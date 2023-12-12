@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/chernyshev/gotron-sdk/pkg/address"
+	"github.com/chernyshev/gotron-sdk/pkg/common"
+	"github.com/chernyshev/gotron-sdk/pkg/proto/core"
 	"github.com/fatih/structs"
-	"github.com/fbsobreira/gotron-sdk/pkg/address"
-	"github.com/fbsobreira/gotron-sdk/pkg/common"
-	"github.com/fbsobreira/gotron-sdk/pkg/proto/core"
 	"github.com/spf13/cobra"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )
